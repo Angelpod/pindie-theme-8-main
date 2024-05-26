@@ -96,7 +96,7 @@ export const getMe = async (url, jwt) => {
     return error
   }
 }
-
+//для коммита
 export const checkIfUserVoted = (game, userId) => {
   return game.users.find((user) => user.id === userId)
 }
